@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Call Cat Fact API
         run: |
+          # calling catfact API every 5 minutes
           echo "Calling catfact.ninja/fact..."
           curl -X GET "https://catfact.ninja/fact"
-            
