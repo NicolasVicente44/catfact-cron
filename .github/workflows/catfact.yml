@@ -14,3 +14,4 @@ jobs:
         run: |
           echo "Calling catfact.ninja/fact..."
           curl -X GET "https://catfact.ninja/fact"
+            
